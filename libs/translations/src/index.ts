@@ -1,1 +1,1 @@
-export * from './lib/translations';
+export { default as i18n } from './i18n';

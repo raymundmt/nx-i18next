@@ -1,9 +1,9 @@
-import i18n from './i18n';
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import { I18nextProvider } from 'react-i18next';
 
 import App from './app/app';
+import { i18n } from '@nx-i18next/translations';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
