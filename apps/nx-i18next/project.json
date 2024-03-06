@@ -1,0 +1,8 @@
+{
+  "name": "nx-i18next",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/nx-i18next/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
