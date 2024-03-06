@@ -1,14 +1,17 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from '../components/LanguageSwitcher';
 
 export function App() {
-  return (
+  const { t } = useTranslation()
+
+  return <>
     <div>
-      <NxWelcome title="nx-i18next" />
+      {t('Hello')}
     </div>
-  );
+    <div>
+      <LanguageSwitcher />
+    </div>
+  </>
 }
 
 export default App;
